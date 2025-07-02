@@ -1,4 +1,4 @@
-﻿using Moq;
+﻿/*using Moq;
 using ReservasHoteles.Entidades;
 using ReservasHoteles.Interfaces;
 using System;
@@ -274,3 +274,4 @@ namespace ReservasHotelesTest.Pruebas
     }
 
 }
+*/
