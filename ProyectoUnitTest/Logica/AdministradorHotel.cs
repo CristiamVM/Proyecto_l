@@ -24,7 +24,7 @@ namespace ReservasHoteles.Logica
             var usuario = hotel.RepositorioUsuarios.ObtenerPorUsuarioId(usuarioId);
             if (usuario == null || usuario.Rol != "admin")
             {
-                Console.WriteLine("❌ Acceso denegado. Solo administradores pueden realizar esta acción.");
+                Console.WriteLine(" Acceso denegado. Solo administradores pueden realizar esta acción.");
                 return false;
             }
             return true;
